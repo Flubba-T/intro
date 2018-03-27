@@ -1,0 +1,7 @@
+#for
+primes = [2, 3, 5, 7]
+for x in primes:
+    print(x)
+print('\n')
+
+#
