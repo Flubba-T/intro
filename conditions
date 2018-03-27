@@ -1,0 +1,33 @@
+#Conditinos
+x = 2
+print(x == 2)
+print(x == 3)
+
+#boolean op
+if x == 2 and x < 3:
+    print("x is 2, wh ich is less than 3)
+print('\n')
+
+#in op determines if object exists in iterable object container
+name = "John"
+if name in ["John", "Rick"]:
+    print("name is either "John or Rick")
+print('\n')
+
+#if else
+if x == 2:
+    print("x equals 2")
+else:
+    print("x does not equal to 2")
+print('\n')
+
+#is op matches instances of variables rather than values like '==' does
+y = [1,2,3]
+z = [1,2,3]
+print(x == y)
+print(x is y)
+print('\n')
+
+#not op inverts boolean
+print(not false)
+print('\n')
