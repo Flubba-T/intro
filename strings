@@ -1,0 +1,44 @@
+#string ops
+astring = "Hello world"
+
+#print length of str
+print(len(astring))
+print('\n')
+
+#print first index of o in str
+print(astring.index('o')
+print('\n')
+
+#print occurances of 1 in str
+print(astring.count('1'))
+print('\n')
+
+#print char 3-6 of str
+print(astring[3:7])
+print('\n')
+
+#print char 3-6 skipping 2
+print(astring[3:7:2])
+print('\n')
+
+#print reverse of string
+print(astring[::-1])
+print('\n')
+
+#print third char from end
+print(astring[-3]
+print('\n')
+
+#convert to upper/lowercase and print
+print(astring.upper())
+print(astring.lower())
+print('\n')
+
+#determine of a str starts or ends with something
+print(astring.startswith('Hello'))
+print(astring.endswith('notworld'))
+print('\n')
+
+#split str by given thing
+bstring = astring.split(" ")
+print(bstring)
