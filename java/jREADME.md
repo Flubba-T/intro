@@ -1,1 +1,2 @@
-//practice for learning the Java programming language
+/*practice for learning the Java programming language
+written and used in the NetBeans IDE*/
